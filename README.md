@@ -1,6 +1,6 @@
 # 🤖 Automação de Testes - AyaBooks 📚
 
-Este projeto tem como objetivo a automação de testes end-to-end da aplicação [AyaBooks](https://aya.app.br/ayabooks/) utilizando **Cypress**, com **JavaScript** e a **Design Pattern Page Objects**.
+Este projeto tem como objetivo a automação de testes end-to-end da aplicação [AyaBooks](https://aya.app.br/ayabooks/) utilizando **Cypress**, com **JavaScript** e o **Design Pattern Page Objects**.
 
 ---
 
