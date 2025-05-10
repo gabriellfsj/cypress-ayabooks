@@ -7,8 +7,7 @@ describe('Teste regressivo do site Aya Books', () => {
       cy.visit('/')
     })
 
-   
-    
+       
     it('Clicar no botão Estante', () => {
       navBar.selectbotaoEstanteNavBar()
 

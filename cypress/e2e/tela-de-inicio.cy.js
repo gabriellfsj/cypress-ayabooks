@@ -7,8 +7,7 @@ describe('Teste regressivo do site Aya Books', () => {
       cy.visit('/')
     })
 
-    
-    it('Clicar no banner da tela de inicio', () => {
+    it('Clicar no banner da tela de início', () => {
         telaInicial.selectbotaoBannerInicio()
 
     })    
@@ -59,6 +58,11 @@ describe('Teste regressivo do site Aya Books', () => {
         
      
      }) 
+
+     it('Clicar no botão Chatbot  da tela de início', () => {
+      telaInicial.selectBotaoChatBotInicio()
+
+    })   
 
     
 

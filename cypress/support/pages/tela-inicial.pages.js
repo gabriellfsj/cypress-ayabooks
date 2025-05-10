@@ -59,6 +59,15 @@ class telaInicial {
         cy.origin('https://play.google.com', () => {
             cy.url().should('include', 'store/apps/details?id=br.com.ayabooks'); // por exemplo
         });
+
+        
+    }
+
+    selectBotaoChatBotInicio(){
+        cy.get(ELEMENTS.botaoChatBotInicio)
+        .click({force: true}) 
+        .wait(3000) 
+        
     }
     
 }

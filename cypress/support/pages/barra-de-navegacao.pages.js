@@ -8,8 +8,8 @@ class estante {
     }
 
     selectbotaoInicioNavBar(){
-        cy.contains('Início')
-        .click() 
+        cy.xpath(ELEMENTS.botaoInicioNavBar)
+        .dblclick() 
          
     }
 
