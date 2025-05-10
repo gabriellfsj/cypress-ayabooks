@@ -5,6 +5,7 @@
   "author": "Gabriel Francisco",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^14.3.2"
+    "cypress": "^14.3.2",
+    "cypress-xpath": "^2.0.1"
   }
 }

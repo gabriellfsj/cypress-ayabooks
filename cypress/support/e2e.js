@@ -15,6 +15,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-xpath'
+
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     // Ignorar erros relacionados ao owlCarousel

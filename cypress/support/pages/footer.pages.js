@@ -1,4 +1,4 @@
-const ELEMENTS = require('../elements/estante.elements').ELEMENTS
+const ELEMENTS = require('../elements/footer.elements').ELEMENTS
 
 class footer {
 
